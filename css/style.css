@@ -25,5 +25,21 @@
 
 .container-1 {
   width: 100%;
-  background: red;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: repeat(5, 20%);
+}
+.container-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 10% 60% 10% 10%;
+  grid-template-columns: repeat(2, 10%) 60% repeat(2, 10%);
+}
+.container-4 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* fransion-bo'lak  */
+  
 }
